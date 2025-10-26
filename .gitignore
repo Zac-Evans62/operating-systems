@@ -1,0 +1,10 @@
+*.out
+*.o
+*.exe
+producer 
+consumer
+*.log
+*.tmp
+*.swp
+*.shm
+.nfs*
