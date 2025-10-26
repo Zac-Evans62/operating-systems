@@ -5,7 +5,7 @@ g++ consumer.cpp -pthread -lrt -o consumer
 run:
 ./producer & ./consumer &
 
-Files: Producer.cpp - the program that produces the items consumer.cpp - the program that takes the items Everything else - screenshots/cleanup.
+Files: Producer.cpp - the program that produces the items. consumer.cpp - the program that takes the items. Everything else - screenshots/cleanup.
 
 Program Description:
 This program impliments a version of the producer consumer problem using shared memory and semaphores. The producer generates a sequence of 10 items that are placed in a bounded buffer located in shared memory. Simultaniousely the consumer takes items from the same buffer. The buffer has a max capacity of two items. When the buffer is full the producer waits. When the buffer is empty the consumer waits. Too ensure the two processes have proper communication and to ensure mutual exclusion the processes use POSIX semaphores to manage access to shared recourses.
