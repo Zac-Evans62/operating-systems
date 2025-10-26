@@ -29,3 +29,5 @@ once the operation is complete sem_post(mutex) is called to effectively unlock t
 
 proper output:
 
+<img width="534" height="293" alt="Screenshot 2025-10-26 161834" src="https://github.com/user-attachments/assets/0a68a509-f0ee-4fda-a768-62b1c9b3d88e" />
+<img width="445" height="231" alt="Screenshot 2025-10-26 161845" src="https://github.com/user-attachments/assets/6e65b1dd-222c-423f-acac-15c8ebeaf5c9" />
