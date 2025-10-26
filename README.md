@@ -11,7 +11,7 @@ This program impliments a version of the producer consumer problem using shared 
 Key components: 
 Semaphores: 3 semaphores were used in this program m
 mutex - a semaphore that enforced mutual exclusion
-enpty - reprisented the number of empty slots in the buffer
+empty - reprisented the number of empty slots in the buffer
 full - reprisented the number of filled slots in the buffer
 All together these sempahores ensured only one process could access shared memory at a time, the producer waits while the buffer is full, and the consumer waits when its empty
 
